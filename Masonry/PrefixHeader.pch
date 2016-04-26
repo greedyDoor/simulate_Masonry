@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  Masonry
+//
+//  Created by Mac on 16/4/22.
+//  Copyright © 2016年 www.ZXZ.com. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Masonry/Masonry.h"
+#import "MMPlaceHolder.h"
+#ifdef DEBUG  // 调试阶段
+#define ZXZLog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段
+
+#endif
+
+
+#endif
